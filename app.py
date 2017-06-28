@@ -28,10 +28,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-    
-    for a in range(10):
-        print (a)
-    speech = "The cost of shipping to " 
+   
+  speech = "The cost of shipping to " 
 
     print("Response:")
     print(speech)
