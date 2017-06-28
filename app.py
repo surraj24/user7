@@ -28,7 +28,9 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-
+    if req.get("result").get("action") == "shipping.cost":
+        return {}
+    
     speech = "The cost of shipping to "
 
     print("Response:")
