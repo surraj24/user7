@@ -28,8 +28,8 @@ def webhook():
     return r
 
 def makeWebhookResult(req):
-   
-  speech = "The cost of shipping to " 
+
+    speech = "The cost of shipping to " + zone + " is " + str(cost[zone]) + " euros."
 
     print("Response:")
     print(speech)
